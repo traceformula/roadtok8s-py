@@ -3,7 +3,7 @@ This is a test project used to trigger the execution of the main project.
 The main project will have the following functionalities:
 - Custom Kubernetes controller/operator (in Go / Python) that automates a useful workflow — e.g., dynamically scaling workloads, cleaning up old pods, or syncing config from Git to cluster.
 
-###AutoScaler Operator
+### AutoScaler Operator
 Purpose: A controller that watches deployments and automatically scales them based on custom metrics (like CPU, memory, or queue length from an external API).
 
 Tasks:
@@ -14,7 +14,7 @@ Tasks:
 - Use kind or minikube to deploy locally.
 - Expose metrics via /metrics endpoint, containerize via Dockerfile, push image to GHCR, and deploy to GitHub repo.
 
-###[Python] K8s Snapshot Controller
+### [Python] K8s Snapshot Controller
 - Use kopf (Kubernetes Operator Framework for Python)
 - Build an operator that automatically snapshots PVCs daily
 - Reconciler watches for SnapshotSchedule CRD and triggers volume snapshots
