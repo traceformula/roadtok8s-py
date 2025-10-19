@@ -1,4 +1,4 @@
-name: Deploy Python app
+- name: Deploy Python app
   hosts: all
   become: yes
   tasks:
